@@ -1,8 +1,8 @@
 # StockTracker
-A small script to display information about stocks.
 
+A small script to display information about stocks using [Alpha Vantage API](https://www.alphavantage.co/).
 
-## Options:
+## Options
 
 1. Intraday
 2. Daily
@@ -12,7 +12,7 @@ A small script to display information about stocks.
 6. Monthly
 7. Monthly Adjusted
 
-## Sample Stocks:
+## Sample Stocks
 
 * ^NSEI - NIFTY 50
 * TSLA - Tesla Inc
@@ -22,8 +22,7 @@ A small script to display information about stocks.
 * RELIANCE.NSE - Reliance
 * HDFCBANK.NSE - HDFC Bank
 
-
-### TODO:
+### TODO
 
 [x] implement single stock display
 

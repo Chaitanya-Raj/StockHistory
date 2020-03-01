@@ -1,7 +1,7 @@
 from pprint import pprint
 from alpha_vantage.timeseries import TimeSeries
 import matplotlib.pyplot as plt
-API_KEY = 'OQ7O1XM3XG9FF32B'
+API_KEY = 'your-api-key'
 
 
 choices = {1: 'Intraday', 2: "Daily", 3: "Daily Adjusted", 4: "Weekly",
