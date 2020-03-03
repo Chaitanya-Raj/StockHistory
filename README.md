@@ -28,4 +28,4 @@ A small script to display information about stocks using [Alpha Vantage API](htt
 
 [] implement multiple stocks display
 
-[] fix graph plotter
+[x] fix graph plotter

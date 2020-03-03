@@ -1,7 +1,10 @@
 from pprint import pprint
 from alpha_vantage.timeseries import TimeSeries
 import matplotlib.pyplot as plt
-API_KEY = 'your-api-key'
+import matplotlib.style as style
+style.use('seaborn-poster')  # sets the size of the charts
+style.use('ggplot')
+API_KEY = 'OQ7O1XM3XG9FF32B'
 
 
 choices = {1: 'Intraday', 2: "Daily", 3: "Daily Adjusted", 4: "Weekly",
@@ -24,15 +27,15 @@ while(True):
         interval = input(
             "\nInput a valid interval '1min, 5min, 15min, 30min, 60min' : ")
         data, meta_data = ts.get_intraday(
-            symbol=symbol, interval=interval, outputsize='full')
+            symbol=symbol, interval=interval, outputsize='compact')
 
     elif choice == 2:
         data, meta_data = ts.get_daily(
-            symbol=symbol, outputsize='full')
+            symbol=symbol, outputsize='compact')
 
     elif choice == 3:
         data, meta_data = ts.get_daily_adjusted(
-            symbol=symbol, outputsize='full')
+            symbol=symbol, outputsize='compact')
 
     elif choice == 4:
         data, meta_data = ts.get_weekly(
