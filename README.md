@@ -26,6 +26,4 @@ A small script to display information about stocks using [Alpha Vantage API](htt
 
 [x] implement single stock display
 
-[] implement multiple stocks display
-
 [x] fix graph plotter

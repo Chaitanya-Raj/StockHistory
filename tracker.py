@@ -18,7 +18,7 @@ while(True):
     if choice == 0:
         exit("Exiting the program...")
 
-    ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas')
+    ts = TimeSeries(key=API_KEY, output_format='pandas')
 
     symbol = input("\nInput a valid ticker : ")
     n = int(input("How many rows to display : "))
